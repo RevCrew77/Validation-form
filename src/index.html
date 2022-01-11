@@ -14,11 +14,11 @@
       <div class="emoji mb-6">💣🤯💥</div>
       <button class="button">Boom?</button>
       <form action="">
-        <input type="text" name="name" class="input" maxlength="20" />
-        <input type="text" pattern="[a-zA-Z]+" name="name-slug" class="input" required />
+        <input type="text" name="name" class="input" minlength="20" required>
+        <input type="text" pattern="[a-zA-Z]+" name="name_slug" class="input" required />
         <input type="text" name="description" class="input">
-        <input type="number" name="numberOfContributes" class="input" min="1" max="100">
-        <input type="number" name="numberOfBranches" class="input" min="1" max="100" required>
+        <input type="number" name="contributers" class="input" min="1" max="100">
+        <input type="number" name="max_branches" class="input" min="1" max="100" required>
       </form>
     </div>
   </body>
